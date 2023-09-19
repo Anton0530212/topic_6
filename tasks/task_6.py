@@ -1,10 +1,10 @@
-# не сделано
 year: int = int(input('Введите год: '))
 month: int = int(input('Введите номер месяца: '))
 
-# leap_year =
-if year % 4 == 0 and year % 400 == 0:
+months = ...
+is_leap_year = year % 4 == 0 and year % 100 == 0 or year % 400 == 0
+
+if ...:
     print('Да')
-elif year % 100 == 0:
+else:
     print('Нет')
-#  не понимаю условие

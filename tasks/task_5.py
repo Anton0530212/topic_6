@@ -4,9 +4,9 @@ num: int = int(input('Введите целое число: '))
 
 if num % 2 == 0:
     print('Число', num, 'является четным')
-elif num % 2 != 0 and num * 3 >= 20:
+elif num * 3 >= 20:
     print('Результат умножения', num, 'на', 3, 'больше', 20)
 else:
     print('Число', num, 'не соответствует условиям')
 
-# не понимаю куда писать оператор моржа :=
+# https://github.com/Anton0530212/topic_4/blob/main/README.md#%D0%BC%D0%BE%D1%80%D0%B6%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80
